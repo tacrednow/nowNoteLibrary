@@ -2,7 +2,7 @@
 import Foundation
 
 /// 格式化数字转换为字符串
-func formatterNumberToString(obj: Any?) -> String {
+public func formatterNumberToString(obj: Any?) -> String {
     if let num = obj as? NSNumber {
         let suffixes = ["", "k", "M", "B"]
         var idx = 0
